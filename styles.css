@@ -44,3 +44,37 @@ html, body {
     position: relative;
     z-index: 1;
   }
+
+
+  .nav-header {
+    display: flex;
+    block-size: 65px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 8.1%, rgba(0, 0, 0, 0.8) 15.5%, rgba(0, 0, 0, 0.8) 22.5%, rgba(0, 0, 0, 0.78) 29%, rgba(0, 0, 0, 0.73) 35.3%, rgba(0, 0, 0, 0.67) 41.2%, rgba(0, 0, 0, 0.6) 47.1%, rgba(0, 0, 0, 0.52) 52.9%, rgba(0, 0, 0, 0.44) 58.8%, rgba(0, 0, 0, 0.33) 64.7%, rgba(0, 0, 0, 0.22) 71%, rgba(0, 0, 0, 0.12) 77.5%, rgba(0, 0, 0, 0.05) 84.5%, rgba(0, 0, 0, 0.01) 91.9%, rgba(0, 0, 0, 0) 100%);
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .Navigation-contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo-svg {
+    display: none;
+  }
+
+  .logo-img {
+    width: 30px;
+    height: 40px;
+    line-height: 24px;
+    font-weight: 400;
+  }
