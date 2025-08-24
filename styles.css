@@ -1,0 +1,46 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-header {
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .background-video {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    display: none;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+  }
+  
+  @media (max-width: 1000px) {
+    .video-small {
+      display: block;
+    }
+  }
+  
+  @media (min-width: 1000px) {
+    .video-big {
+      display: block;
+    }
+  }
+  
+  /* اگر می‌خواهی محتوای روی ویدیو باشد: */
+  .main-header > *:not(.background-video) {
+    position: relative;
+    z-index: 1;
+  }
