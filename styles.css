@@ -17,7 +17,8 @@ html, body {
   
   .background-video {
     position: absolute;
-    top: 0; left: 0;
+    top: 0; 
+    left: 0;
     width: 100vw;
     height: 100vh;
     object-fit: cover;
@@ -52,20 +53,22 @@ html, body {
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 8.1%, rgba(0, 0, 0, 0.8) 15.5%, rgba(0, 0, 0, 0.8) 22.5%, rgba(0, 0, 0, 0.78) 29%, rgba(0, 0, 0, 0.73) 35.3%, rgba(0, 0, 0, 0.67) 41.2%, rgba(0, 0, 0, 0.6) 47.1%, rgba(0, 0, 0, 0.52) 52.9%, rgba(0, 0, 0, 0.44) 58.8%, rgba(0, 0, 0, 0.33) 64.7%, rgba(0, 0, 0, 0.22) 71%, rgba(0, 0, 0, 0.12) 77.5%, rgba(0, 0, 0, 0.05) 84.5%, rgba(0, 0, 0, 0.01) 91.9%, rgba(0, 0, 0, 0) 100%);
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding-left: 45px;
+    padding-right: 45px;
   }
 
 
   .Navigation-contents {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .nav {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .logo-svg {
@@ -79,4 +82,16 @@ html, body {
     font-weight: 400;
   }
 
-  
+  .menu-header img {
+    position: relative;
+    z-index: 2;
+    width: 23px;
+    height: 23px;
+  }
+
+  .user-header img {
+    position: relative;
+    z-index: 2;
+    width: 23px;
+    height: 23px;
+  }
