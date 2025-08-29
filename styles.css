@@ -4,6 +4,16 @@ html, body {
     margin: 0;
     padding: 0;
   }
+
+  @font-face {
+    font-family: "porshce-next-regular";
+    src: url("font/porsche-next-latin-regular.b8f1c20.woff2") format(".woff2");
+  }
+
+  @font-face {
+    font-family: "porsche-next-semi-bold";
+    src: url("font/porsche-next-latin-semi-bold.b5f6fca.woff2") format(".woff2");
+  }
   
   .main-header {
     width: 100vw;
@@ -82,8 +92,13 @@ html, body {
     font-weight: 400;
   }
 
+  .menu-header {
+    display: flex;
+  }
+
   .menu-header img {
     position: relative;
+    display: flex;
     z-index: 2;
     width: 23px;
     height: 23px;
@@ -91,7 +106,12 @@ html, body {
 
   .user-header img {
     position: relative;
+    display: flex;
     z-index: 2;
     width: 23px;
     height: 23px;
+  }
+
+  .text-menu-header {
+    display: none;
   }
