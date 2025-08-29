@@ -1,0 +1,11 @@
+@media (min-width: 480px) {
+    .nav-header {
+       block-size: 80px;
+    }
+
+    .text-menu-header {
+        display: flex;
+        font-family: "porsche-next-porsche-next-semi-bold", sans-serif;
+        color: #fff;
+    }
+}
