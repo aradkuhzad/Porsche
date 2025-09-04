@@ -5,6 +5,11 @@ html, body {
     padding: 0;
   }
 
+  body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
   @font-face {
     font-family: "porshce-next-regular";
     src: url("font/porsche-next-latin-regular.b8f1c20.woff2") format(".woff2");
