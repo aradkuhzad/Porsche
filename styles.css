@@ -55,7 +55,7 @@ html, body {
     }
   }
   
-  /* اگر می‌خواهی محتوای روی ویدیو باشد: */
+  
   .main-header > *:not(.background-video) {
     position: relative;
     z-index: 1;
