@@ -77,12 +77,11 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 390px;
+    width: 401.22px;
     height: 100%;
     block-size: 66px;
     background-color: #fff;
     line-height: 24px;
-    right: 3px;
   }
 
   .menu-header {
